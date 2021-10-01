@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px){
+    #header{
+       padding-left: 20px !important;
+       padding-right: 20px !important;
+    }
+}
+@media screen and (max-width: 1199.99px) and (min-width: 991px) {
+    
+    .boglanish__inner{
+        line-height: 75px !important;
+        padding-left: 30px;
+        font-size: 65px !important;
+        width: 50%;
+    }
+    .boglanish__img{
+        margin-top: 40px;
+        margin-right: 50px;
+        width: 40% !important;
+    }
+    .boglanish__card{
+        margin: 0 auto;
+        width: 50% !important;
+        padding-top: 20px !important;
+    }
+   
+    .mm__inner{
+        margin-top: 30px;
+        width: 40% !important;
+    }
+    .mm__map{
+        margin: 0px auto !important;
+        margin-bottom: 0 !important;
+        width: 60% !important;
+    }
+    .mm__inner{
+        padding-left: 30px;
+        width: 30%;
+    }
+    .mm__inner h1{
+        font-size: 25px !important;
+    }
+    .mm__inner p{
+        font-size: 17px !important;
+    }
+  
+    .mmi__btn a{
+        padding: 7px 5px !important;
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 991.99px) and (min-width: 768px) {
+    
+    .boglanish__inner{
+        width: 90% !important;
+        line-height: 70px !important;
+        padding-left: 30px;
+        font-size: 70px !important;
+        width: 70%;
+    }
+    .boglanish__img{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 90% !important;
+    }
+    .boglanish__card{
+        margin: 0 auto;
+        width: 50% !important;
+        padding-top: 20px !important;
+    }
+   
+    .mm__inner{
+        margin-top: 30px;
+        width: 40% !important;
+    }
+    .mm__map{
+        margin: 0px auto !important;
+        margin-bottom: 0 !important;
+        width: 60% !important;
+    }
+    .mm__inner{
+        padding-left: 30px;
+        width: 30%;
+    }
+    .mm__inner h1{
+        font-size: 25px !important;
+    }
+    .mm__inner p{
+        font-size: 17px !important;
+    }
+  
+    .mmi__btn a{
+        padding: 7px 5px !important;
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 767.99px) and (min-width: 520px) {
+    .boglanish__inner{
+        width: 90% !important;
+        line-height: 60px !important;
+        padding-left: 30px;
+        font-size: 65px !important;
+    }
+    .boglanish__img{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 85% !important;
+    }
+    .boglanish__card{
+        margin: 0 auto;
+        width: 95% !important;
+        padding-top: 20px !important;
+    }
+   
+    .mm__inner{
+        margin-top: 30px;
+        width: 90% !important;
+    }
+    .mm__map{
+        margin: 30px auto !important;
+        margin-bottom: 0 !important;
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 519.99px) and (min-width: 360px) {
+    
+    .boglanish__inner{
+        width: 90% !important;
+        line-height: 60px !important;
+        padding-left: 30px;
+        font-size: 50px !important;
+    }
+    .boglanish__img{
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 85% !important;
+    }
+    .boglanish__card{
+        margin: 0 auto;
+        width: 95% !important;
+        padding-top: 20px !important;
+    }
+   
+    .mm__inner{
+        margin-top: 30px;
+        width: 90% !important;
+    }
+    .mm__map{
+        margin: 30px auto !important;
+        margin-bottom: 0 !important;
+        width: 100% !important;
+    }
+} 

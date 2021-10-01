@@ -1,0 +1,39 @@
+@media screen and (max-width: 1201px){
+    #nav{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 1199.99px) and (min-width: 991px) {
+    #nav{
+        padding: 0 20px;
+    }
+    .courses__block{
+        margin: 10px auto !important;
+        width: 48% !important;
+    }
+}
+@media screen and (max-width: 990.99px) and (min-width: 768px) {
+    .courses__block{
+        margin: 10px auto !important;
+        width: 47% !important;
+    }
+}
+@media screen and (max-width: 767.99px) and (min-width: 520px) {
+    .courses__block{
+        margin: 10px auto !important;
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 519.99px) and (min-width: 360px) {
+    .courses__block{
+        width: 95% !important;
+    }
+  
+}
+
+/* @media screen and (max-width: 1201px){}
+@media screen and (max-width: 1199.99px) and (min-width: 991px) {}
+@media screen and (max-width: 991.99px) and (min-width: 768px) {}
+@media screen and (max-width: 767.99px) and (min-width: 520px) {}
+@media screen and (max-width: 519.99px) and (min-width: 360px) {} */

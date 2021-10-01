@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#courses{
+    padding-top: 50px;
+    background-color: #f7f7f7;
+}
+.courses__inner{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    letter-spacing: 2.5px; 
+    color: #000;
+}
+.courses__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.courses__block{
+    background-color: rgb(226, 224, 214);
+    width: 30%;
+    margin: 10px 15px 10px 22px;
+    padding: 35px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.courses__block:hover{
+    z-index: 1;
+    transform: scale(1.03, 1.03);
+}
+.cb__inner{
+    color: #FA4A0C;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.cb__text{
+    margin-top: 15px;
+    font-family: 'Zilla Slab', serif;
+    text-align: justify;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #555;
+}
+.cb__btn{
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+span .fa-angle-right{
+    padding-top: 10px;
+}
+.cb__btn:hover{
+    color: #FA4A0C;
+    font-weight: 700;
+}
+.courses__text{
+  border: 2px solid red;
+  width: 30%;
+  position: relative;
+  top: 170px;
+}

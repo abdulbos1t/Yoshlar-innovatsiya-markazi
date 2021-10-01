@@ -1,0 +1,309 @@
+@media screen and (max-width: 1201px){
+    #nav{
+        padding: 0 20px;
+    }
+    .about2{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 1199.99px) and (min-width: 991px) {
+    #nav{
+        padding: 0 20px;
+    }
+    .about2{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 991.99px) and (min-width: 768px) {
+    #header{
+        background: rgb(21, 19, 51);
+    }
+    #nav{
+        padding: 0 20px;
+    }
+    #nav{
+        padding: 0 20px;
+    }
+
+    .news__card{
+        position: relative !important;
+        right: 80px !important;
+        left: -15px !important;
+     }
+    
+     .nc__img{
+         width: 345px !important;
+         height: 250px !important;
+     }
+     .nc__text{
+         width: 348px;
+     }
+     .slick-prev{
+         left: 75% !important;
+     }
+     .slick-next{
+         right: 70px !important;
+     }
+/* ===========================================================ABOUT2================================================ */
+.about__img2{
+    margin: -50px auto  20px !important;
+    width: 90% !important;
+}
+.about__inner2{
+    width: 100% !important;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-bottom: -70px !important;
+}
+}
+
+@media screen and (max-width: 767.99px) and (min-width: 520px) {
+    #header{
+        background: rgb(21, 19, 51) ;
+    }
+    #hamburger__menu{
+        display: block !important;
+        position: relative;
+        z-index: 1000;
+    }
+    #hamburger__menu.open{
+        color: #000 !important;
+    }
+    #nav{
+        padding: 0 20px;
+    }
+    #nav__items{
+        display: block !important;
+        flex-direction: column;
+        background-color: #2e3647;
+        padding: 50px 30px;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        position: fixed;
+        left: -800px;
+        top: 0px;
+  
+    }
+    #nav__items a{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 30px;
+        position: relative;
+        top: 70px;
+        font-size: 30px !important;
+  
+    }
+    #nav__items a::after{
+        width: 0% !important;
+    }
+    #nav__items a:hover{
+        color: burlywood !important;
+    }
+    #nav__items.active{
+        left: 0px;
+    }
+    .social{
+        border-top: 2px solid rgb(212, 199, 199);
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 35px;
+        display: block !important;
+        position: relative;
+        top: 280px;
+    }
+    .social i{
+        font-size: 30px;
+        margin-left: 50px;
+        cursor: pointer;
+        color: burlywood;
+    }
+    .social i:first-child{
+        margin-left: 0;
+    } 
+
+     /* ===========================================================ABOUT2================================================ */
+.about__img2{
+    margin: -50px auto  20px !important;
+    width: 90% !important;
+}
+.about__inner2{
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -70px !important;
+}
+/* ===========================================================ARIZA================================================ */
+.ism__email{
+    flex-wrap: wrap;
+}
+#ait__text{
+    width: 90% !important;
+  }
+  #aie__input{
+      margin-top: 20px;
+      margin-left: -4px !important;
+      width: 90% !important;
+  }
+  textarea{
+      width: 90% !important;
+  }
+/* ===========================================================FOOTER================================================ */
+ 
+#footer__block{
+    margin-top: 20px;
+    width: 100% !important;
+    padding-left: 50px;
+}
+#footer__block:first-child{
+    margin-top: 0;
+}
+#footer__block:last-child{
+    padding-left: 300px;
+}
+.manzil{
+    margin-left: -90px;
+}
+}
+@media screen and (max-width: 519.99px) and (min-width: 360px) {
+    #hamburger__menu{
+        display: block !important;
+        position: relative;
+        z-index: 1000;
+    }
+    #hamburger__menu.open{
+        color: #000 !important;
+    }
+    #nav{
+        padding: 0 20px;
+    }
+    /* #kirish{
+        display: inline-block;
+        margin-top: 140px;
+        margin-left: 95px !important;
+        width: 60%;
+        height: 50px;
+        text-align: center !important;
+    }
+    #kirish i{
+        padding-left: 50px;
+        font-size: 23px !important;
+    }
+    #kirish a{
+        position: relative;
+        left: 2px;
+        top: -15.5px;
+        font-size: 25px !important;
+    } */
+  #nav__items{
+      display: block !important;
+      flex-direction: column;
+      background-color: #2e3647;
+      padding: 50px 30px;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      position: fixed;
+      left: -500px;
+      top: 0px;
+
+  }
+  #nav__items a{
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin-top: 30px;
+      position: relative;
+      top: 70px;
+      font-size: 30px !important;
+
+  }
+  #nav__items a::after{
+      width: 0% !important;
+  }
+  #nav__items a:hover{
+      color: burlywood !important;
+  }
+  #nav__items.active{
+      left: 0px;
+  }
+  .social{
+    border-top: 2px solid rgb(212, 199, 199);
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 35px;
+    display: block !important;
+    position: relative;
+    top: 250px;
+}
+.social i{
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: burlywood;
+}
+.social i:first-child{
+    margin-left: 0;
+} 
+ .news__card{
+     width: 90%;
+    margin-right: 30px !important;
+ }
+
+ .nc__img{
+     width: 423.5px !important;
+ }
+ .slick-prev{
+     left: 65% !important;
+ }
+ .slick-next{
+     right: 70px !important;
+ }
+ .intro__inner{
+     font-size: 41px !important;
+ }
+/* ===========================================================ABOUT2================================================ */
+.about__img2{
+    margin-top: -50px !important;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 90% !important;
+}
+.about__inner2{
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -70px !important;
+}
+/* ===========================================================ARIZA================================================ */
+.ism__email{
+    flex-wrap: wrap;
+}
+#ait__text{
+    width: 90% !important;
+  }
+  #aie__input{
+      margin-top: 20px;
+      margin-left: -4px !important;
+      width: 90% !important;
+  }
+  textarea{
+      width: 90% !important;
+  }
+ /* ===========================================================FOOTER================================================ */
+ 
+ #footer__block{
+     margin-top: 20px;
+     width: 100% !important;
+     padding-left: 20px;
+ }
+ #footer__block:first-child{
+     margin-top: 0;
+ }
+ #footer__block:last-child{
+     padding-left: 171px;
+ }
+
+}
